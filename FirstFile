@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil - Services pour Animaux</title>
+    <link rel="stylesheet" href="page1.css">
+   
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <h1>Adopte-moi, Soigne-moi</h1>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="./home.html">Accueil</a></li>
+                    <li><a href="./pets.html">Adoption</a></li>
+                    <li><a href="./association.html">Associations</a></li>
+                    <li><a href="./veto.html">Vétérinaires</a></li>
+                    <li><a href="./connexion.html">Connexion</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="features" class="section">
+        <h3>Trouvez un compagnon ou des services<br>
+             pour vos animaux facilement.</h3>
+        <br><br>
+        <div class="container">
+            <div class="card-grid">
+                <div class="card">
+                    <div class="card-icons">
+                        <img src="images/adoption.jpeg" alt="Favoris">
+                        
+                    </div>
+                    <h3>Adoptez un Animal</h3>
+                   
+                    <p>Explorez les animaux disponibles à l'adoption et trouvez votre futur compagnon.</p>
+                    <a href="./pets.html" class="btn">Découvrir</a>
+                </div>
+                <div class="card">
+                    <div class="card-icons">
+                        <img src="images/veto.jpg" alt="Favoris">
+                        
+                    </div>
+                    <h3>Recherchez un Vétérinaire</h3>
+                    <p>Trouvez un vétérinaire près de chez vous pour les soins de vos animaux.</p>
+                    <a href="./veto.html" class="btn">Trouver un Vétérinaire</a>
+                </div>
+                <div class="card">
+                    <div class="card-icons">
+                        <img src="images/association.jpg" alt="Favoris">
+                        
+                    </div>
+                    <h3>Associations</h3>
+                    <p>Voici une liste d'associations qui collaborent avec nous pour le bien-être des animaux :</p>
+                    <a href="./association.html" class="btn">Découvrir</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="main-footer">
+        <div class="container">
+            <p>&copy; 2025 Services pour Animaux. Tous droits réservés.</p>
+            <p><a href="#">Politique de Confidentialité</a> | <a href="#">Conditions d'Utilisation</a></p>
+        </div>
+    </footer>
+</body>
+</html>
